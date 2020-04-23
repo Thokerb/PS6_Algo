@@ -1,0 +1,10 @@
+What is the asymptotic complexity of the entire 12-element sequence of actions from Exercise 3?
+
+Assuming n = 8:
+
+insert has a worst case complexity of O(log n), we have to do it n times
+removeMin has a worst case complexity of O(log n), we also have to do it n times
+-> n * O(log n) = O(n log n)
+-> O(n log n) + O(n log n) = 2 * O(n log n) = O(n log n)
+
+=> Complexity is O(n log n)
