@@ -1,4 +1,3 @@
-"C:\Program Files\Java\jdk-12.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.2\lib\idea_rt.jar=54149:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\kerbe\IdeaProjects\PS6_Algo\out\production\PS6_Algo Exercise2.Main
 [->] Patient (John Alpha, SEVERE, 0, 54) is admitted
 Adding new element
 ------------------------------------------------------------------------------------------
@@ -30,205 +29,255 @@ Swap
  |Patient (Clara Delta, MILD, 2, 15)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
  |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+------------------------------------------------------------------------------------------
+Swap end
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Clara Delta, MILD, 2, 15)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 Swap end
 Swap
 ------------------------------------------------------------------------------------------
  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
  |Patient (Mark Bravo, SEVERE, 1, 18)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Clara Delta, MILD, 2, 15)|
 ------------------------------------------------------------------------------------------
 Swap end
-[<-] Patient (John Alpha, SEVERE, 0, 54) is treated
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+Swap end
+[<-] Patient (Clara Delta, MILD, 2, 15) is treated
 [->] Patient (Theresa Echo, MILD, 2, 82) is admitted
 Adding new element
 ------------------------------------------------------------------------------------------
- |Patient (Mark Bravo, SEVERE, 1, 18)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
  |Patient (Theresa Echo, MILD, 2, 82)|
 ------------------------------------------------------------------------------------------
 Swap
 ------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Theresa Echo, MILD, 2, 82)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
  |Patient (Mark Bravo, SEVERE, 1, 18)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+------------------------------------------------------------------------------------------
+Swap end
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
  |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
  |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 Swap end
 Swap
 ------------------------------------------------------------------------------------------
  |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Theresa Echo, MILD, 2, 82)|
+------------------------------------------------------------------------------------------
+Swap end
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (John Alpha, SEVERE, 0, 54)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+Swap end
+[<-] Patient (Theresa Echo, MILD, 2, 82) is treated
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (John Alpha, SEVERE, 0, 54)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
  |Patient (Steven Charlie, MEDIUM, 1, 31)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|  |Patient (John Alpha, SEVERE, 0, 54)|
 ------------------------------------------------------------------------------------------
 Swap end
-[<-] Patient (Mark Bravo, SEVERE, 1, 18) is treated
 Swap
 ------------------------------------------------------------------------------------------
  |Patient (Steven Charlie, MEDIUM, 1, 31)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Clara Delta, MILD, 2, 15)|  |Patient (Steven Charlie, MEDIUM, 1, 31)|
-------------------------------------------------------------------------------------------
-Swap end
-Swap
-------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Clara Delta, MILD, 2, 15)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
 ------------------------------------------------------------------------------------------
 Swap end
-[<-] Patient (Steven Charlie, MEDIUM, 1, 31) is treated
+[<-] Patient (John Alpha, SEVERE, 0, 54) is treated
 [->] Patient (Sebastian Foxtrott, SEVERE, 4, 63) is admitted
 Adding new element
 ------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
 ------------------------------------------------------------------------------------------
-Swap
-------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Clara Delta, MILD, 2, 15)|
-------------------------------------------------------------------------------------------
-Swap end
 [->] Patient (Anna Golf, SEVERE, 4, 40) is admitted
 Adding new element
 ------------------------------------------------------------------------------------------
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Clara Delta, MILD, 2, 15)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
  |Patient (Anna Golf, SEVERE, 4, 40)|
 ------------------------------------------------------------------------------------------
 Swap
 ------------------------------------------------------------------------------------------
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Clara Delta, MILD, 2, 15)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
  |Patient (Anna Golf, SEVERE, 4, 40)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
-------------------------------------------------------------------------------------------
-Swap end
-Swap
-------------------------------------------------------------------------------------------
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
- |Patient (Anna Golf, SEVERE, 4, 40)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
 ------------------------------------------------------------------------------------------
 Swap end
 [->] Patient (Maria Hotel, MEDIUM, 5, 3) is admitted
 Adding new element
 ------------------------------------------------------------------------------------------
- |Patient (Anna Golf, SEVERE, 4, 40)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 The emergency room closes. All patients that were admitted so far are treated sequentially.
 
 Swap
 ------------------------------------------------------------------------------------------
- |Patient (Anna Golf, SEVERE, 4, 40)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Mark Bravo, SEVERE, 1, 18)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
  |Patient (Maria Hotel, MEDIUM, 5, 3)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Anna Golf, SEVERE, 4, 40)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Mark Bravo, SEVERE, 1, 18)|
 ------------------------------------------------------------------------------------------
 Swap end
 Swap
 ------------------------------------------------------------------------------------------
  |Patient (Maria Hotel, MEDIUM, 5, 3)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Anna Golf, SEVERE, 4, 40)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+Swap end
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Anna Golf, SEVERE, 4, 40)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Anna Golf, SEVERE, 4, 40)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+------------------------------------------------------------------------------------------
+Swap end
+[<-] Patient (Mark Bravo, SEVERE, 1, 18) is treated
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Anna Golf, SEVERE, 4, 40)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Anna Golf, SEVERE, 4, 40)|
+------------------------------------------------------------------------------------------
+Swap end
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 Swap end
 [<-] Patient (Anna Golf, SEVERE, 4, 40) is treated
 Swap
 ------------------------------------------------------------------------------------------
  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
- |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|  |Patient (Sebastian Foxtrott, SEVERE, 4, 63)|
 ------------------------------------------------------------------------------------------
 Swap end
 Swap
 ------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Maria Hotel, MEDIUM, 5, 3)|  |Patient (Clara Delta, MILD, 2, 15)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
  |Patient (Maria Hotel, MEDIUM, 5, 3)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Clara Delta, MILD, 2, 15)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 Swap end
 [<-] Patient (Sebastian Foxtrott, SEVERE, 4, 63) is treated
 Swap
 ------------------------------------------------------------------------------------------
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
  |Patient (Maria Hotel, MEDIUM, 5, 3)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Clara Delta, MILD, 2, 15)|
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|  |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+ |Patient (Steven Charlie, MEDIUM, 1, 31)|
+------------------------------------------------------------------------------------------
+Swap end
+[<-] Patient (Steven Charlie, MEDIUM, 1, 31) is treated
+Swap
+------------------------------------------------------------------------------------------
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+ |Patient (Maria Hotel, MEDIUM, 5, 3)|
 ------------------------------------------------------------------------------------------
 Swap end
 [<-] Patient (Maria Hotel, MEDIUM, 5, 3) is treated
-Swap
-------------------------------------------------------------------------------------------
- |Patient (Clara Delta, MILD, 2, 15)|
- |Patient (Theresa Echo, MILD, 2, 82)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
- |Patient (Clara Delta, MILD, 2, 15)|
-------------------------------------------------------------------------------------------
-Swap end
-[<-] Patient (Clara Delta, MILD, 2, 15) is treated
-Swap
-------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------
- |Patient (Theresa Echo, MILD, 2, 82)|
-------------------------------------------------------------------------------------------
-Swap end
-[<-] Patient (Theresa Echo, MILD, 2, 82) is treated
+
+Process finished with exit code 0
